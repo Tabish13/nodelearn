@@ -1,0 +1,15 @@
+{
+	"Environment" : "development",
+	"development" : {
+		  "host": "localhost",
+		  "user": "root",
+		  "password": "root",
+		  "database" : "k2",
+		  "connectionLimit": 10,
+		  "acquireTimeout" : 10000
+	},
+	"production" : {
+		"dbname" : "live"
+	},
+	"secretkey" : "gupshup"
+}

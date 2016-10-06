@@ -1,0 +1,26 @@
+{
+  "name": "K2-API",
+  "version": "1.0.0",
+  "description": "APIs for K2 dashboard and bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Shrikant Potty | shrikant.potty@gupshup.io",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "~4.15.0",
+    "express": "~4.14.0",
+    "yuidocjs": "~0.10.2",
+    "serve-static": "~1.11.1",
+    "body-parser": "~1.15.2",
+    "config": "~1.21.0",
+    "winston": "~2.2.0",
+    "config.json": "0.0.4",
+    "errorhandler": "~1.4.3",
+    "mysql": "~2.11.1",
+    "crypto": "0.0.3",
+    "jsonwebtoken": "~7.1.9"
+  }
+}

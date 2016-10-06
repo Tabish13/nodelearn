@@ -1,0 +1,1120 @@
+{
+    "project": {},
+    "files": {
+        "routes/routes.js": {
+            "name": "routes/routes.js",
+            "modules": {
+                "routes": 1,
+                "Creation of new organization": 1,
+                "Updation of organization": 1,
+                "login": 1,
+                "log out": 1,
+                "creation of new module": 1,
+                "updation of module": 1,
+                "get all modules for an organization": 1,
+                "get module by id": 1,
+                "insert question by position": 1,
+                "delete question by position": 1,
+                "insert question at the end": 1,
+                "get question by position": 1,
+                "get question by id": 1,
+                "create a new campaign": 1,
+                "updation of the campaign": 1,
+                "upload file with profile info": 1,
+                "get list of destination": 1,
+                "Add new destination to campaign": 1,
+                "delete a destination": 1,
+                "run the campaign": 1,
+                "get list of profiles": 1,
+                "create a new profile": 1,
+                "get profile by id": 1,
+                "get profile by channelid": 1,
+                "get profile fields": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "server.js": {
+            "name": "server.js",
+            "modules": {
+                "server": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "routes": {
+            "name": "routes",
+            "submodules": {
+                "Creation of new organization": 1,
+                "Updation of organization": 1,
+                "login": 1,
+                "log out": 1,
+                "creation of new module": 1,
+                "updation of module": 1,
+                "get all modules for an organization": 1,
+                "get module by id": 1,
+                "insert question by position": 1,
+                "delete question by position": 1,
+                "insert question at the end": 1,
+                "get question by position": 1,
+                "get question by id": 1,
+                "create a new campaign": 1,
+                "updation of the campaign": 1,
+                "upload file with profile info": 1,
+                "get list of destination": 1,
+                "Add new destination to campaign": 1,
+                "delete a destination": 1,
+                "run the campaign": 1,
+                "get list of profiles": 1,
+                "create a new profile": 1,
+                "get profile by id": 1,
+                "get profile by channelid": 1,
+                "get profile fields": 1
+            },
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "routes/routes.js",
+            "line": 1,
+            "description": "The routes class which handles all the routes and sends the response accordingly"
+        },
+        "Creation of new organization": {
+            "name": "Creation of new organization",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 15,
+            "description": "This endpoint handles creation of the new organization\n\nResponse will be - {test : test}",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "useremail",
+                            "description": "email id of the user",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "password",
+                            "description": "password of the user",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "botuuid",
+                            "description": "uuid of the bot",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "botname",
+                            "description": "name of the bot",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "entaccount",
+                            "description": "enterprise account",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "entpassword",
+                            "description": "enterprise password welcomemsg",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "welcomemsg",
+                            "description": "welcome message for the bot",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "locale",
+                            "description": "locale for the bot",
+                            "type": "Object",
+                            "optional": true
+                        }
+                    ]
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "Updation of organization": {
+            "name": "Updation of organization",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 41,
+            "description": "This endpoint handles updation of the existing organization",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "useremail",
+                            "description": "email id of the user",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "password",
+                            "description": "password of the user",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "botuuid",
+                            "description": "uuid of the bot",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "botname",
+                            "description": "name of the bot",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "entaccount",
+                            "description": "enterprise account",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "entpassword",
+                            "description": "enterprise password welcomemsg",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "welcomemsg",
+                            "description": "welcome message for the bot",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "locale",
+                            "description": "locale for the bot",
+                            "type": "Object",
+                            "optional": true
+                        }
+                    ]
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "login": {
+            "name": "login",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 62,
+            "description": "This endpoint handles login of the user",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "useremail",
+                            "description": "email id of the user",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "password",
+                            "description": "password of the user",
+                            "type": "Object",
+                            "optional": true
+                        }
+                    ]
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "log out": {
+            "name": "log out",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 77,
+            "description": "This endpoint handles logout of the user",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "creation of new module": {
+            "name": "creation of new module",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 94,
+            "description": "This endpoint handles creation of a new module",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "name",
+                            "description": "name of the module",
+                            "type": "Object",
+                            "optional": true
+                        }
+                    ]
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "updation of module": {
+            "name": "updation of module",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 108,
+            "description": "This endpoint handles updation of a existing module",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "name",
+                            "description": "name of the module",
+                            "type": "Object",
+                            "optional": true
+                        }
+                    ]
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "get all modules for an organization": {
+            "name": "get all modules for an organization",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 122,
+            "description": "This endpoint gets all the modules based on organization id",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "get module by id": {
+            "name": "get module by id",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 135,
+            "description": "This endpoint gets a specific module based on id",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "insert question by position": {
+            "name": "insert question by position",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 151,
+            "description": "This endpoint inserts a question at the given position and reorder questions. If position already exists, throws error.",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "qtname",
+                            "description": "question to be inserted in to the module",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "options",
+                            "description": "options",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "profilefield",
+                            "description": "profile field of the question",
+                            "type": "Object",
+                            "optional": true
+                        }
+                    ]
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "delete question by position": {
+            "name": "delete question by position",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 167,
+            "description": "This endpoint deletes question at the given position and reorder questions. If position already exists, throws error.",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "insert question at the end": {
+            "name": "insert question at the end",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 180,
+            "description": "This endpoint inserts a question at the end.",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "qtname",
+                            "description": "question to be inserted in to the module",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "options",
+                            "description": "options",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "profilefield",
+                            "description": "profile field of the question",
+                            "type": "Object",
+                            "optional": true
+                        }
+                    ]
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "get question by position": {
+            "name": "get question by position",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 196,
+            "description": "This endpoint Gets the question at the given position. If position doesn't exists, throws error.",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "get question by id": {
+            "name": "get question by id",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 209,
+            "description": "This endpoint Gets the question based on its id. If id doesn't exists, throws error.",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "create a new campaign": {
+            "name": "create a new campaign",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 226,
+            "description": "This endpoint creates a new campaign",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "name",
+                            "description": "name for the campaign",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "smstemplate",
+                            "description": "sms template for the campaign",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "emailtemplate",
+                            "description": "email template for the campaign",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "module",
+                            "description": "module for the ccampaign",
+                            "type": "Object",
+                            "optional": true
+                        }
+                    ]
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "updation of the campaign": {
+            "name": "updation of the campaign",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 243,
+            "description": "This endpoint updates of campaign",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "name",
+                            "description": "name for the campaign",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "smstemplate",
+                            "description": "sms template for the campaign",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "emailtemplate",
+                            "description": "email template for the campaign",
+                            "type": "Object",
+                            "optional": true
+                        },
+                        {
+                            "name": "module",
+                            "description": "module for the ccampaign",
+                            "type": "Object",
+                            "optional": true
+                        }
+                    ]
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "upload file with profile info": {
+            "name": "upload file with profile info",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 260,
+            "description": "This endpoint uploads file with destination list",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "file",
+                            "description": "file to get data from",
+                            "type": "Object",
+                            "optional": true
+                        }
+                    ]
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "get list of destination": {
+            "name": "get list of destination",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 274,
+            "description": "This endpoint gets list of destination",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "Add new destination to campaign": {
+            "name": "Add new destination to campaign",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 287,
+            "description": "This endpoint adds a new destination to campaign",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "delete a destination": {
+            "name": "delete a destination",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 300,
+            "description": "This endpoint deletes destination",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "run the campaign": {
+            "name": "run the campaign",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 313,
+            "description": "This endpoint runs the campaign i.e. send the email/sms etc",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "get list of profiles": {
+            "name": "get list of profiles",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 330,
+            "description": "This endpoint gets list of profiles",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "create a new profile": {
+            "name": "create a new profile",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 343,
+            "description": "This endpoint creates profiles",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "get profile by id": {
+            "name": "get profile by id",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 356,
+            "description": "This endpoint gets a specific profile based on profile id",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "get profile by channelid": {
+            "name": "get profile by channelid",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 369,
+            "description": "This endpoint gets a profile based on channelprofile id",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "get profile fields": {
+            "name": "get profile fields",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "is_submodule": 1,
+            "namespaces": {},
+            "module": "routes",
+            "namespace": "",
+            "file": "routes/routes.js",
+            "line": 382,
+            "description": "This endpoint gets profile fields",
+            "params": [
+                {
+                    "name": "req",
+                    "description": "request Object",
+                    "type": "Object",
+                    "optional": true
+                },
+                {
+                    "name": "response",
+                    "description": "",
+                    "type": "Object"
+                }
+            ]
+        },
+        "server": {
+            "name": "server",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "server.js",
+            "line": 12,
+            "description": "The server class creates the server and routes all the requests to routes"
+        }
+    },
+    "classes": {},
+    "elements": {},
+    "classitems": [
+        {
+            "file": "routes/routes.js",
+            "line": 13,
+            "class": "",
+            "module": "routes"
+        },
+        {
+            "file": "routes/routes.js",
+            "line": 90,
+            "class": "",
+            "module": "routes",
+            "submodule": "log out"
+        },
+        {
+            "file": "routes/routes.js",
+            "line": 92,
+            "class": "",
+            "module": "routes",
+            "submodule": "log out"
+        },
+        {
+            "file": "routes/routes.js",
+            "line": 147,
+            "class": "",
+            "module": "routes",
+            "submodule": "get module by id"
+        },
+        {
+            "file": "routes/routes.js",
+            "line": 149,
+            "class": "",
+            "module": "routes",
+            "submodule": "get module by id"
+        },
+        {
+            "file": "routes/routes.js",
+            "line": 222,
+            "class": "",
+            "module": "routes",
+            "submodule": "get question by id"
+        },
+        {
+            "file": "routes/routes.js",
+            "line": 224,
+            "class": "",
+            "module": "routes",
+            "submodule": "get question by id"
+        },
+        {
+            "file": "routes/routes.js",
+            "line": 326,
+            "class": "",
+            "module": "routes",
+            "submodule": "run the campaign"
+        },
+        {
+            "file": "routes/routes.js",
+            "line": 328,
+            "class": "",
+            "module": "routes",
+            "submodule": "run the campaign"
+        },
+        {
+            "file": "routes/routes.js",
+            "line": 395,
+            "class": "",
+            "module": "routes",
+            "submodule": "get profile fields"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "Missing item type",
+            "line": " routes/routes.js:13"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes/routes.js:90"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes/routes.js:92"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes/routes.js:147"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes/routes.js:149"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes/routes.js:222"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes/routes.js:224"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes/routes.js:326"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes/routes.js:328"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes/routes.js:395"
+        }
+    ]
+}
